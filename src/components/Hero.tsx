@@ -57,7 +57,7 @@ export function Hero({ onContactClick }: HeroProps) {
       {/* Background Image */}
       <div className="absolute inset-0 bg-black">
         <ImageWithFallback
-          src="public/IMAGE3.JPG"
+          src="IMAGE3.JPG"
           className="w-full h-full object-cover opacity-60"
         />
       </div>
