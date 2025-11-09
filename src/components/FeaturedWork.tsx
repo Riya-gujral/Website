@@ -12,7 +12,7 @@ import { useRef } from "react";
 const featuredWorks = [
   {
     id: 1,
-    image: "public/wed.JPG",
+    image: "wed.JPG",
 
     // title: "Summer Garden Wedding",
     category: "Wedding Photography",
@@ -20,7 +20,7 @@ const featuredWorks = [
   },
   {
     id: 2,    
-    image: "public/IMG_5116.JPG",
+    image: "IMG_5116.JPG",
     // title: "Romantic Couple Portrait",
     category: "Portrait Photography",
     description: "Capturing elegance and emotion through the art of natural portraiture",
