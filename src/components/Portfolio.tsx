@@ -237,6 +237,118 @@
 
 
 
+// import { ImageWithFallback } from "./figma/ImageWithFallback";
+// import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
+
+// const portfolioImages = {
+//   all: [
+//     {
+//       id: 1,
+//       url: "/YN4.JPG",
+//       category: "weddings",
+//       title: "Wedding Shoot 1",
+//     },
+//     {
+//       id: 2,
+//       url: "/pre-wed2.jpg",
+//       category: "portraits",
+//       title: "Pre-Wedding Shoot",
+//     },
+//     {
+//       id: 3,
+//       url: "/Pranjal.JPG",
+//       category: "celebrity",
+//       title: "Celebrity Shoot",
+//     },
+//     {
+//       id: 4,
+//       url: "/photos/IMG_5115.JPG",
+//       category: "bridal",
+//       title: "Bridal Shoot",
+//     },
+//     {
+//       id: 5,
+//       url: "/photos/portfolio5.png",
+//       category: "weddings",
+//       title: "Wedding Shoot 2",
+//     },
+//   ],
+// };
+
+// export function Portfolio() {
+//   const getFilteredImages = (category: string) => {
+//     if (category === "all") return portfolioImages.all;
+//     return portfolioImages.all.filter((img) => img.category === category);
+//   };
+
+//   const ImageGrid = ({ images }: { images: typeof portfolioImages.all }) => (
+//     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+//       {images.map((image) => (
+//         <div
+//           key={image.id}
+//           className="group relative aspect-square overflow-hidden bg-black rounded-lg flex items-center justify-center"
+//         >
+//           <ImageWithFallback
+//             src={image.url}
+//             alt={image.title}
+//             className="max-w-full max-h-full object-contain transition duration-300 group-hover:scale-105"
+//           />
+
+//           <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+//             <p className="text-white tracking-wider">{image.title}</p>
+//           </div>
+//         </div>
+//       ))}
+//     </div>
+//   );
+
+//   return (
+//     <section id="portfolio" className="py-20 px-4 bg-gray-50">
+//       <div className="container mx-auto max-w-7xl">
+
+//         <div className="text-center mb-12">
+//           <h2 className="mb-4 tracking-wider">PORTFOLIO</h2>
+//           <p className="max-w-2xl mx-auto opacity-70">
+//             Explore a curated selection of my work across different photography styles and genres.
+//           </p>
+//         </div>
+
+//         <Tabs defaultValue="all" className="w-full">
+//           <TabsList className="w-full justify-center mb-12 flex-wrap h-auto">
+//             <TabsTrigger value="all">All</TabsTrigger>
+//             <TabsTrigger value="weddings">Weddings</TabsTrigger>
+//             <TabsTrigger value="portraits">Pre-Wedding</TabsTrigger>
+//             <TabsTrigger value="celebrity">Celebrity Shoots</TabsTrigger>
+//             <TabsTrigger value="bridal">Bridal Shoot</TabsTrigger>
+//           </TabsList>
+
+//           <TabsContent value="all">
+//             <ImageGrid images={getFilteredImages("all")} />
+//           </TabsContent>
+//           <TabsContent value="weddings">
+//             <ImageGrid images={getFilteredImages("weddings")} />
+//           </TabsContent>
+//           <TabsContent value="portraits">
+//             <ImageGrid images={getFilteredImages("portraits")} />
+//           </TabsContent>
+//           <TabsContent value="celebrity">
+//             <ImageGrid images={getFilteredImages("celebrity")} />
+//           </TabsContent>
+//           <TabsContent value="bridal">
+//             <ImageGrid images={getFilteredImages("bridal")} />
+//           </TabsContent>
+//         </Tabs>
+
+//       </div>
+//     </section>
+//   );
+// }
+
+
+
+
+
+
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 
@@ -262,16 +374,32 @@ const portfolioImages = {
     },
     {
       id: 4,
-      url: "/photos/IMG_5115.JPG",
+      url: "/radhika.JPG",
       category: "bridal",
       title: "Bridal Shoot",
     },
     {
       id: 5,
-      url: "/photos/portfolio5.png",
+      url: "/couplee.JPG",
       category: "weddings",
       title: "Wedding Shoot 2",
     },
+
+    // ⭐⭐⭐ ADDED — Your New Bridal Image 1
+    {
+      id: 6,
+      url: "/bridal_stand.JPG", 
+      category: "bridal",
+      title: "Bridal Shoot – Closeup",
+    },
+
+    // ⭐⭐⭐ ADDED — Your New Bridal Image 2
+    // {
+    //   id: 7,
+    //   url: "/photos/bridal-new2.jpg",
+    //   category: "bridal",
+    //   title: "Bridal Couple Portrait",
+    // },
   ],
 };
 
