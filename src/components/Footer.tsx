@@ -271,16 +271,31 @@ export function Footer() {
             <h3 className="mb-4 text-lg font-semibold">Connect With Me</h3>
             <ul className="space-y-3">
               {/* Instagram */}
-              <li className="flex items-center gap-2 opacity-80 hover:opacity-100 transition-opacity">
-                <Instagram className="w-5 h-5 text-pink-500" />
-                <a
-                  href="https://wnpm ww.instagram.com/rohitchawlaphotography?igsh=MW10MjdiZ2xnenQxeA%3D%3D&utm_source=qr"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Instagram:https://www.instagram.com/rohitchawlaphotography?igsh=MW10MjdiZ2xnenQxeA%3D%3D&utm_source=qr
-                </a>
-              </li>
+            <li className="flex items-center space-x-2">
+  <Instagram className="w-5 h-5 text-pink-500" />
+  <a
+    href="https://instagram.com/rohitchawlaphotography"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:underline"
+  >
+    Instagram: @rohitchawlaphotography
+  </a>
+</li>
+
+<li className="flex items-center space-x-2">
+  <Instagram className="w-5 h-5 text-pink-500" />
+  <a
+    href="https://instagram.com/rohitchawla_official"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:underline"
+  >
+    Instagram: @rohitchawla_official
+  </a>
+</li>
+
+
 
               {/* WhatsApp */}
               <li className="flex items-center gap-2 opacity-80 hover:opacity-100 transition-opacity">
@@ -293,6 +308,8 @@ export function Footer() {
                   WhatsApp: +91 88998 58298
                 </a>
               </li>
+
+              
 
               {/* Phone */}
               <li className="flex items-center gap-2 opacity-80 hover:opacity-100 transition-opacity">
