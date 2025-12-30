@@ -356,9 +356,9 @@ const portfolioImages = {
   all: [
     {
       id: 1,
-      url: "/YN4.JPG",
+      url: "/IMG_1054.JPG",
       category: "weddings",
-      title: "Wedding Shoot 1",
+      title: "Engagement",
     },
     {
       id: 2,
