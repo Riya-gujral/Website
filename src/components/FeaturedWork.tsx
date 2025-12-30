@@ -129,14 +129,19 @@ const featuredWorks = [
   {
     id: 3,
     image: "/Standimg.jpg",
-    category: "Event Photography",
-    description: "Dynamic and engaging coverage of professional gatherings",
+    // category: "Event Photography" ,
+    // description: "Dynamic and engaging coverage of professional gatherings",
+
+     category: "Elegant Wedding Photography",
+      description: "Capturing timeless moments with grace, style, and creativity.",
   },
   {
-    id: 4,
-    image: "/YN3.JPG",
-    category: "Fashion Photography",
-    description: "Bold and creative studio photography for fashion brands",
+   id: 3,
+    image: "/SIKH-WED.jpeg",
+   
+
+     category: "Elegant Wedding Photography",
+      description: "Capturing timeless moments with grace, style, and creativity.",
   },
 ];
 

@@ -382,10 +382,13 @@ const portfolioImages = {
       id: 5,
       url: "/couplee.JPG",
       category: "weddings",
-      title: "Wedding Shoot 2",
+      title: "Wedding Shoot ",
     },
 
     // ⭐⭐⭐ ADDED — Your New Bridal Image 1
+   
+   
+   
     {
       id: 6,
       url: "/bridal_stand.JPG", 
@@ -393,13 +396,79 @@ const portfolioImages = {
       title: "Bridal Shoot – Closeup",
     },
 
-    // ⭐⭐⭐ ADDED — Your New Bridal Image 2
-    // {
-    //   id: 7,
-    //   url: "/photos/bridal-new2.jpg",
-    //   category: "bridal",
-    //   title: "Bridal Couple Portrait",
-    // },
+    {
+      id: 7,
+      url: "/stair.JPG",
+      category: "weddings",
+      title: "Wedding Shoot ",
+    },
+
+  {
+      id: 8,
+      url: "/couple-stand.JPG", 
+      category: "weddings",
+      title: "Wedding Shoot",
+    },
+
+     {
+      id: 9,
+      url: "/pre-wed3.jpg",
+      category: "portraits",
+      title: "Pre-Wedding Shoot",
+    },
+
+      {
+      id: 10,
+      url: "/pre-wed5.jpg",
+      category: "portraits",
+      title: "Pre-Wedding Shoot",
+    },
+
+      {
+      id: 11,
+      url: "/pre-wed4.jpg",
+      category: "portraits",
+      title: "Pre-Wedding Shoot",
+    },
+
+     {
+      id: 12,
+      url: "/YN1.JPG",
+      category: "portraits",
+      title: "Pre-Wedding Shoot",
+    },
+
+     {
+      id: 13,
+      url: "/radhika-bride.jpg", 
+      category: "bridal",
+      title: "Bridal Shoot",
+    },
+
+    {
+      id: 14,
+      url: "/SIKH-WED.jpeg", 
+      category: "weddings",
+      title: "Wedding Shoot",
+    },
+
+    {
+      id: 15,
+      url: "/SIKH-WED2.jpeg", 
+      category: "weddings",
+      title: "Wedding Shoot",
+    },
+    
+
+
+
+
+
+  
+
+
+
+ 
   ],
 };
 
