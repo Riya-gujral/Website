@@ -57,7 +57,7 @@ export function Contact() {
               </div>
               <div>
                 <h3 className="mb-1">Phone</h3>
-                <p className="opacity-70">88998 58298</p>
+                <p className="opacity-70">91-9870658408</p>
               </div>
             </div>
 

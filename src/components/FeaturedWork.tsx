@@ -119,6 +119,7 @@ const featuredWorks = [
     image: "/wed.JPG",
     category: "Wedding Photography",
     description: "A celebration of love — captured through our lens.",
+    
   },
   {
     id: 2,
