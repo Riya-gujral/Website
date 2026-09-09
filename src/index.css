@@ -1,4 +1,16 @@
 /*! tailwindcss v4.1.3 | MIT License | https://tailwindcss.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap');
+#root {
+  background: #f7f3ed;
+}
+body {
+  background: #f7f3ed;
+   /* background: #b1a99e; */
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.15em;
+  font-weight: 400;
+}
 @layer properties {
   @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
     *, :before, :after, ::backdrop {

@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
-import { Hero } from "./components/Hero";
+// import { Hero } from "./components/Hero";
 import { FeaturedWork } from "./components/FeaturedWork";
+import { StorySection } from "./components/StorySection";
 import { Portfolio } from "./components/Portfolio";
 import { ParallaxSection } from "./components/ParallaxSection";
 import { About } from "./components/About";
@@ -19,9 +20,11 @@ export default function App() {
 
   return (
     <div className="min-h-screen">
+      
       <Header />
-      <Hero onContactClick={scrollToContact} />
+      {/* <Hero onContactClick={scrollToContact} /> */}
       <FeaturedWork />
+      <StorySection/>
       <Portfolio />
       <ParallaxSection />
       <About />

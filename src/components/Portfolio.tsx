@@ -349,6 +349,8 @@
 
 
 
+
+
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 
@@ -368,9 +370,13 @@ const portfolioImages = {
     },
     {
       id: 3,
-      url: "/Pranjal.JPG",
-      category: "celebrity",
-      title: "Celebrity Shoot",
+
+       url: "/haldi.jpeg",
+      category: "weddings",
+      title: "Wedding Shoot ",
+      // url: "/Pranjal.JPG",
+      // category: "celebrity",
+      // title: "Celebrity Shoot",
     },
     {
       id: 4,
@@ -433,9 +439,9 @@ const portfolioImages = {
 
      {
       id: 12,
-      url: "/YN1.JPG",
-      category: "portraits",
-      title: "Pre-Wedding Shoot",
+       url: "/wed_k.jpeg", 
+      category: "weddings",
+      title: "Wedding Shoot"
     },
 
      {
@@ -458,14 +464,6 @@ const portfolioImages = {
       category: "weddings",
       title: "Wedding Shoot",
     },
-    
-
-
-
-
-
-  
-
 
 
  
@@ -500,12 +498,15 @@ export function Portfolio() {
   );
 
   return (
-    <section id="portfolio" className="py-20 px-4 bg-gray-50">
+    // <section id="portfolio" className="py-20 px-4 bg-gray-100">
+
+      <section id="portfolio" className="bg-[#f7f3ed] py-16 md:py-20 px-4">
+      
       <div className="container mx-auto max-w-7xl">
 
         <div className="text-center mb-12">
-          <h2 className="mb-4 tracking-wider">PORTFOLIO</h2>
-          <p className="max-w-2xl mx-auto opacity-70">
+          <p className="mb-4 tracking-wider">PORTFOLIO</p>
+          <p className="max-w-2xl mx-auto opacity-90">
             Explore a curated selection of my work across different photography styles and genres.
           </p>
         </div>
@@ -515,7 +516,7 @@ export function Portfolio() {
             <TabsTrigger value="all">All</TabsTrigger>
             <TabsTrigger value="weddings">Weddings</TabsTrigger>
             <TabsTrigger value="portraits">Pre-Wedding</TabsTrigger>
-            <TabsTrigger value="celebrity">Celebrity Shoots</TabsTrigger>
+            {/* <TabsTrigger value="celebrity">Celebrity Shoots</TabsTrigger> */}
             <TabsTrigger value="bridal">Bridal Shoot</TabsTrigger>
           </TabsList>
 
@@ -528,9 +529,9 @@ export function Portfolio() {
           <TabsContent value="portraits">
             <ImageGrid images={getFilteredImages("portraits")} />
           </TabsContent>
-          <TabsContent value="celebrity">
+          {/* <TabsContent value="celebrity">
             <ImageGrid images={getFilteredImages("celebrity")} />
-          </TabsContent>
+          </TabsContent> */}
           <TabsContent value="bridal">
             <ImageGrid images={getFilteredImages("bridal")} />
           </TabsContent>

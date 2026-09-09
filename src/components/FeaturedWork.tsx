@@ -114,49 +114,63 @@ import Autoplay from "embla-carousel-autoplay";
 import { useRef } from "react";
 
 const featuredWorks = [
+   {
+   id: 2,
+    image: "/Br.jpeg", 
+  
+  },
   {
     id: 1,
     image: "/wed.JPG",
-    category: "Wedding Photography",
-    description: "A celebration of love — captured through our lens.",
-    
+    // category: "Wedding Photography",
+    // description: "A celebration of love — captured through our lens.",  
   },
-  {
-    id: 2,
-    image: "/IMG_5116.JPG",
-    category: "Portrait Photography",
-    description: "Capturing elegance and emotion through the art of natural portraiture",
+   {
+   id: 2,
+    image: "/Br.jpeg", 
+  
   },
   {
     id: 3,
-    image: "/Standimg.jpg",
-    // category: "Event Photography" ,
-    // description: "Dynamic and engaging coverage of professional gatherings",
-
-     category: "Elegant Wedding Photography",
-      description: "Capturing timeless moments with grace, style, and creativity.",
+    image: "/IMG_5116.JPG",
+    // category: "Portrait Photography",
+    // description: "Capturing elegance and emotion through the art of natural portraiture",
   },
   {
-   id: 3,
-    image: "/SIKH-WED.jpeg",
-   
+    id: 4,
+    image: "/black-white-img.jpeg",
+  //   // category: "Event Photography" ,
+  //   // description: "Dynamic and engaging coverage of professional gatherings",
 
-     category: "Elegant Wedding Photography",
-      description: "Capturing timeless moments with grace, style, and creativity.",
+  //    category: "Elegant Wedding Photography",
+  //     description: "Capturing timeless moments with grace, style, and creativity.",
+   },
+  {
+   id: 5,
+    image: "/SIKH-WED.jpeg", 
+    //  category: "Elegant Wedding Photography",
+    //   description: "Capturing timeless moments with grace, style, and creativity.",
+  },
+   {
+   id: 6,
+    image: "/haldi.jpeg", 
+  
   },
 ];
 
 export function FeaturedWork() {
   const plugin = useRef(
-    Autoplay({ delay: 4000, stopOnInteraction: true })
+    Autoplay({ delay: 3000, stopOnInteraction: true })
   );
 
   return (
-   <section className="py-20 px-4 bg-gray-900 text-white">
+  //  <section className="py-20 px-4 bg-[#f7f3ed] text-black">
+    <section id="featured work"
+    className="pt-5 pb-20 px-4 bg-[#f7f3ed] text-black">
   <div className="container mx-auto max-w-3xl">
 
     <div className="text-center mb-12">
-      <h2 className="mb-4 tracking-wider">FEATURED WORK</h2>
+      {/* <h2 className="mb-4 tracking-wider">FEATURED WORK</h2> */}
       <p className="max-w-2xl mx-auto opacity-70">
         A showcase of recent projects that highlight my passion and expertise in photography.
       </p>
@@ -175,14 +189,14 @@ export function FeaturedWork() {
 
               <ImageWithFallback
                 src={work.image}
-                alt={work.category}
+                // alt={work.category}
                 className="w-full h-full object-cover object-center"
               />
 
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex items-end">
                 <div className="p-8 md:p-12 max-w-3xl">
-                  <p className="opacity-70 mb-2 tracking-wider">{work.category}</p>
-                  <p className="opacity-80">{work.description}</p>
+                  {/* <p className="opacity-70 mb-2 tracking-wider">{work.category}</p>
+                  <p className="opacity-80">{work.description}</p> */}
                 </div>
               </div>
 
