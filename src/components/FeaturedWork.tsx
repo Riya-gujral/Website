@@ -132,7 +132,7 @@ const featuredWorks = [
   },
   {
     id: 3,
-    image: "/IMG_5116.JPG",
+    image: "/IMG_1054.JPG"
     // category: "Portrait Photography",
     // description: "Capturing elegance and emotion through the art of natural portraiture",
   },
@@ -154,6 +154,11 @@ const featuredWorks = [
    {
    id: 6,
     image: "/haldi.jpeg", 
+  
+  },
+  {
+   id: 7,
+     image: "/pre-wed2.jpg", 
   
   },
 ];
