@@ -114,11 +114,11 @@ import Autoplay from "embla-carousel-autoplay";
 import { useRef } from "react";
 
 const featuredWorks = [
-   {
-   id: 2,
-    image: "/Br.jpeg", 
+  //  {
+  //  id: 2,
+  //   image: "/Br.jpeg", 
   
-  },
+  // },
   {
     id: 1,
     image: "/wed.JPG",
